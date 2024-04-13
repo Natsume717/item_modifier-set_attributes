@@ -1,0 +1,2 @@
+# item_modifier-set_attributes
+item_modifierの1項目であるset_attributesに関するサンプルになります。
