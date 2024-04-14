@@ -1,1 +1,0 @@
-give @a diamond 1
