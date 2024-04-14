@@ -1,0 +1,17 @@
+{
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "name": "02_sample",
+        "amount": 20,
+        "operation": "addition",
+        "id": "fd4c9108-d760-4929-9ca1-70d783067c4a",
+        "slot": [
+          "mainhand",
+          "offhand"
+        ]
+      }
+    ]
+  }
+  

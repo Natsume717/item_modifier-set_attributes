@@ -1,0 +1,22 @@
+{
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "name": "41_sample",
+        "amount": 3,
+        "operation": "multiply_base",
+        "id": "23ef157b-d927-44d7-9d47-e3111ac13357",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "name": "42_sample",
+        "amount": 4,
+        "operation": "multiply_base",
+        "id": "b2578906-652e-453c-af7c-19e16eff9902",
+        "slot": "mainhand"
+      }
+    ]
+  }
+  
