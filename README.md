@@ -5,13 +5,13 @@ item_modifierの1項目であるset_attributesに関するサンプルになり�
 現在執筆中
 
 <h3>概要</h3>
-アイテムに対してattributesを付与することが出来る、item_modifierの項目です。
+アイテムに対してattributeを付与することが出来る、item_modifierの項目です。
 
 <h3>使い方</h3>
 
 データパック導入後、ワールドに入り```/reload```と入力して実行してください。
 
-ダイヤモンドが1つ付与されるので、それを手に持った状態で以下のコマンドを実行することでattributesを付与できます。
+ダイヤモンドが1つ付与されるので、それを手に持った状態で以下のコマンドを実行することでattributeを付与できます。
 
 ```copy
 /item modify entity @s weapon.mainhand sample:set_attribute
@@ -31,3 +31,14 @@ item_modifierの1項目であるset_attributesに関するサンプルになり�
 を実行することで、ダイヤモンドが手に入ります。
 
 こちらは手に持っている状態である限り、防御力（防具を装備することで上がる値）が上がります。
+
+---
+
+そのほかのjsonファイルは、それぞれ以下の通りです。
+
+|jsonファイル名|役割|
+|--|--|
+|overlap.json|複数のスロットが記載されていた場合の挙動を試せるもの|
+|addition.json|operationがadditionの場合にどういう計算がなされるのかを試せるもの|
+|multiply_base.json|operationがmultiply_baseの場合にどういう計算がなされるのかを試せるもの|
+|multiply_total.json|operationがmultiply_totalの場合にどういう計算がなされるのかを試せるもの|
